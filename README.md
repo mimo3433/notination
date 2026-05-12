@@ -159,11 +159,6 @@ pip freeze > requirements.txt
 - Ensure your MongoDB cluster allows connections from your IP address
 - Test the connection string in MongoDB Atlas
 
-### Port 8000 Already in Use
-```bash
-uvicorn index:app --reload --port 8001
-```
-
 ## Security
 
 - Never commit `.env` file to version control
